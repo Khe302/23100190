@@ -1,0 +1,21 @@
+package cha02;
+
+public class 실수 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int mach;
+		int distance;
+		mach = 340;
+		distance = mach * 60 * 60;
+		System.out.println("소리가 1시간 동안 가는 거리 : "+distance+"m");
+		
+		double radius;
+		double area;
+		radius = 10.0;
+		area = radius*radius*3.14;
+		System.out.println("반지름이"+radius+"인 윈의 길이 : "+area);
+		
+	}
+
+}
